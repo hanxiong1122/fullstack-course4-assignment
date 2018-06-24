@@ -10,22 +10,23 @@ h1 {
 }
 
 p {
-  border: 1px solid black;
-  background-color: #A52A2A;
+  /*border: 1px solid black;*/
+  /*background-color: #A52A2A;*/
   width: 100%;
-  height: 500px;
+  height: 100%;
   margin-right: auto;
   margin-left: auto;
   font-family: Helvetica;
-  color: white;
+  text-align: justify;
+  color: green;
   padding: 10px;
 }
 
 section {
   border: 1px solid black;
-  background-color: #00FF99;
-  width: 90%;
-  height: 100%;
+  background-color: #B2C8C8;
+  width: 100%;
+  height: 400px;
   font-family: Helvetica;
   color: black;
   position: relative;
@@ -34,7 +35,7 @@ section {
   /*overflow: auto;*/
 }
 
-.h1 {
+.section_title {
   position: relative;
   left: 50%;
   border: 1px solid black;
@@ -57,7 +58,7 @@ section {
   margin-right: auto;
   margin-top: 10px;
   margin-bottom: 10px;
-  padding: 10px;
+  padding: 20px;
 }
 
 
@@ -67,6 +68,23 @@ section {
   width: 100%;
   border: none;
 }
+
+#chicken {
+  background-color: #D71E8D;
+}
+
+#beef {
+  background-color: #44C9EA;
+}
+
+#sushi {
+  background-color: #B6D12E;
+}
+
+#heading_title {
+  font-size: 175%;
+}
+
 
 /********** Large devices only **********/
 @media (min-width: 992px) {
