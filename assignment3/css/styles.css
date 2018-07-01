@@ -22,8 +22,9 @@ p {
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
-  margin-bottom: 10px;
-  padding: 10px;
+  margin-bottom: 0px;
+  padding: 20px;
+  padding-bottom: 0px;
 }
 
 /* header*/
@@ -31,32 +32,42 @@ p {
   border: 0;
   background-color: #FC5F06;
   color: #FFFFFF;
+  padding-bottom: 0;
 }
+
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #61122f;
 }
 .navbar-header button.navbar-toggle {
   clear: both;
-  margin-top: -30px;
+  margin-top: -50px;
 }
 
 .nav-header {
   background-color: #FFFFFF;
+  marign-left: 0px;
+  marign-right: 0px;
 }
 
-.nav-brand {
+.nav-brand {s
   color: purple;
   font-size: 1.5em;
+  margin-top: -10px;
 }
 
 #nav-list {
   color: white;
+  background-color: blue;
+  margin-top: 0px;
+  margin-bottom: 0;
 }
+
 
 hr {
   border-color: white;
 }
+
 
 .item {
   text-align: center;
